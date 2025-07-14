@@ -7,7 +7,7 @@
 
 .gradient{
   height: 15px;
-  background: linear-gradient(to bottom, #e3e3e3, transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent);
 }
 
 .icon{

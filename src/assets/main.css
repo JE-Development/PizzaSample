@@ -55,7 +55,7 @@ a{
 }
 
 .round-corner{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .default-textsize{
@@ -207,12 +207,11 @@ a{
 .input{
     border-radius: 5px;
     width: 95%;
-    font-size: 20px;
-    height: 35px;
+    font-size: 15px;
+    height: 30px;
     outline: none;
     border: none;
     background: transparent;
-    color: white;
 }
 
 .input-parent{
@@ -226,12 +225,10 @@ a{
 .input-layer{
     margin-right: 5px;
     margin-top: 3px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 100%;
-    height: 50px;
-    border: solid 1px #919191;
-    background: rgba(124, 124, 124, 0.5);
-    color: white;
+    height: 40px;
+    border: solid 1px #d8d8d8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,12 +237,10 @@ a{
 .background-layer{
     margin-right: 5px;
     margin-top: 3px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 95%;
     min-height: 50px;
-    border: solid 1px #919191;
-    background: rgba(124, 124, 124, 0.5);
-    color: white;
+    border: solid 1px #d8d8d8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,13 +252,11 @@ a{
 
 .textarea{
     margin-top: 3px;
-    border-radius: 10px;
+    border-radius: 5px;
     min-height: 100px;
     font-size: 15px;
     width: 100%;
-    border: solid 1px #919191;
-    background: rgba(124, 124, 124, 0.5);
-    color: white;
+    border: solid 1px #d8d8d8;
     outline: none;
     display: flex;
     align-items: center;
@@ -286,6 +279,13 @@ a{
     top: 0;
 }
 
+.shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.contain{
+    object-fit: contain;
+}
 
 .svg {
     width: 3.25em;

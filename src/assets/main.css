@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'Eras';
+    src: url('./fonts/eras-itc-bold.ttf') format('truetype');
+}
+
+body{
+    background: #ffffff;
+    margin: 0;
+    font-family: "Arial";
+}
+
+.eras{
+    font-family: 'Eras' !important;
+}
+
+
+
+a{
+    color: #ff452a
+}
+
+.code-font{
+    font-family: 'Cascadia Code', monospace;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.top-0{
+    top: 0;
+}
+
+.on-bottom{
+    z-index: -9999;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.on-less-bottom{
+    z-index: -999;
+}
+
+.on-top{
+    z-index: 9999;
+}
+
+.limit-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.round-corner{
+    border-radius: 20px;
+}
+
+.default-textsize{
+    font-size: 20px;
+}
+
+.full-round{
+    border-radius: 9000px;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+.half-width{
+    width: 50%;
+}
+
+.full-size{
+    width: 100vw;
+    height: 100vh;
+}
+
+.full-width{
+    width: 100vw;
+}
+
+.full-height{
+    width: 100vh;
+}
+
+.max-width{
+    width: 100%;
+}
+
+.max-height{
+    height: 100%;
+}
+
+.center-horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+.center-vertical{
+    display: flex;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.left{
+    display: flex;
+    justify-content: start;
+}
+
+.bottom{
+    display: flex;
+    align-items: end;
+}
+
+.right{
+    display: flex;
+    justify-content: end;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.red{
+    color: #ff0f0f;
+}
+
+.green{
+    color: #00ff00;
+}
+
+.white{
+    color: #ffffff;
+}
+
+.scroll{
+    overflow-y: scroll;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.main-content-width{
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.decent-color{
+    color: #5b666f;
+}
+
+.prim-color{
+    color: #ff432a;
+}
+
+.prim-color-background{
+    background: #ff432a;
+
+}
+
+.gold{
+    color: #e3ae00;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.gray{
+    color: gray;
+}
+
+.input{
+    border-radius: 5px;
+    width: 95%;
+    font-size: 20px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.input-parent{
+    width: 95% !important;
+}
+
+.input-min-width{
+    min-width: 250px;
+}
+
+.input-layer{
+    margin-right: 5px;
+    margin-top: 3px;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #919191;
+    background: rgba(124, 124, 124, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-layer{
+    margin-right: 5px;
+    margin-top: 3px;
+    border-radius: 10px;
+    width: 95%;
+    min-height: 50px;
+    border: solid 1px #919191;
+    background: rgba(124, 124, 124, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lighter-placeholder::placeholder{
+    color: #aaaaaa;
+}
+
+.textarea{
+    margin-top: 3px;
+    border-radius: 10px;
+    min-height: 100px;
+    font-size: 15px;
+    width: 100%;
+    border: solid 1px #919191;
+    background: rgba(124, 124, 124, 0.5);
+    color: white;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-error{
+    border-color: #ff0000;
+}
+
+.reset-margin{
+    margin: 0px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.top-0{
+    top: 0;
+}
+
+
+.svg {
+    width: 3.25em;
+    transform-origin: center;
+    animation: rotate4 2s linear infinite;
+}
+
+.circle {
+    fill: none;
+    stroke: #FD922D;
+    stroke-width: 2;
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    animation: dash4 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate4 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash4 {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90, 200;
+        stroke-dashoffset: -35px;
+    }
+
+    100% {
+        stroke-dashoffset: -125px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1020px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-content-width{
+        width: 95%;
+    }
+}
+
+@media (max-width: 680px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

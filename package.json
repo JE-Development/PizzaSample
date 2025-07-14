@@ -1,0 +1,34 @@
+{
+  "name": "pizzasample",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.5.17",
+    "vue-cookies": "^1.8.6",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vicons/antd": "^0.13.0",
+    "@vicons/carbon": "^0.13.0",
+    "@vicons/fa": "^0.13.0",
+    "@vicons/fluent": "^0.13.0",
+    "@vicons/ionicons4": "^0.13.0",
+    "@vicons/ionicons5": "^0.13.0",
+    "@vicons/material": "^0.13.0",
+    "@vicons/tabler": "^0.13.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7",
+    "vitest": "^3.2.4"
+  }
+}

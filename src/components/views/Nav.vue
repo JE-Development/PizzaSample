@@ -45,8 +45,8 @@
         </div>
         <div class="center-vertical">
           <a href="/#home" class="nav-item">Home</a>
-          <a href="/#about" class="nav-item">Menü</a>
-          <a href="/#us" class="nav-item">Über uns</a>
+          <a href="/#menu" class="nav-item">Menü</a>
+          <a href="/#about" class="nav-item">Über uns</a>
           <a href="/#contact" class="nav-item">Kontakt</a>
         </div>
       </div>

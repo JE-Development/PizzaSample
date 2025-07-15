@@ -35,3 +35,47 @@
 .fade-enter-active {
   transition: all 1s ease;
 }
+
+.fade-left-before{
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out;
+}
+
+.fade-left-after{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.fade-right-before{
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease-out;
+}
+
+.fade-right-after{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.fade-bottom-before{
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 0.5s ease-out;
+}
+
+.fade-bottom-after{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.fade-top-before{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease-out;
+}
+
+.fade-top-after{
+  opacity: 1;
+  transform: translateY(0px);
+}

@@ -31,6 +31,25 @@
   color: #ff432a;
 }
 
+@media (max-width: 600px) {
+  .nav-item{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+    transition: color 0.1s linear;
+  }
+
+  .logo-area{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+}
+
 </style>
 
 <template>

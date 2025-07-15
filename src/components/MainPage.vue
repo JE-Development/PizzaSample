@@ -260,7 +260,7 @@
                   <h2 class="reset-margin white" style="font-size: 40px">35+</h2>
                 </div>
                 <div class="center-horizontal">
-                  <p class="white reset-margin">Jahre Erfahrung</p>
+                  <p class="white reset-margin center-text">Jahre Erfahrung</p>
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@
                   <h2 class="reset-margin white" style="font-size: 40px">50k+</h2>
                 </div>
                 <div class="center-horizontal">
-                  <p class="white reset-margin">Zufriedene Kunden</p>
+                  <p class="white reset-margin center-text">Zufriedene Kunden</p>
                 </div>
               </div>
             </div>
